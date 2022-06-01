@@ -1,0 +1,74 @@
+body{
+    background-color: #221010e3!important;
+    overflow-x: hidden!important;
+}
+.logoBrand{
+    width: 150px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+input{
+    width: 50%;
+    background-color: #1212129c;
+    padding: 15px;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
+}
+.profile{
+    margin-left: 20px;
+    
+}
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+}
+.functions{
+    cursor: pointer;
+}
+.noResult{
+    color:#fff;
+    font-family: monospace;
+    font-size: 20px;
+}
+.videoMain{
+    display: flex;
+    justify-content: space-around;
+}
+iframe{
+    width: 850px;
+    height: 500px;
+}
+.videoSection{
+    padding: 0 20px;
+}
+.videoList > div{
+    float: right;
+    width: 80%;
+
+}
+
+.videoInfo > .channelTitle{
+    color: #fff;
+    font-family: system-ui;
+}
+.titleVideo{
+   color: #fff;
+    font-family: system-ui;
+}
+.descriptionVideo{
+    color: #fff;
+    font-family: system-ui;
+    width: 75%;
+}
+.videoItems{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 0 15px;
+}
